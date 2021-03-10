@@ -24,10 +24,11 @@ struct ContentView: View {
                     TextField("Search", text: $searcher)
                         .frame(width: UIScreen.main.bounds.width - 230, height: 45)
                         .padding(.leading, 15)
-                        .background(Color(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)).opacity(0.9))
-                        .cornerRadius(20)
+                        .background(RoundedRectangle(cornerRadius: 25)
+                                        .stroke(Color.white.opacity(0.8), lineWidth: 2)
+                                        .background(Color.clear))
+                        
                     
-//                    Spacer()
                     Button(action: {
                         
                     },
