@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,15 @@
 		5FB8733025F88F7600D4E40E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB8732F25F88F7600D4E40E /* Assets.xcassets */; };
 		5FB8733325F88F7600D4E40E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FB8733225F88F7600D4E40E /* Preview Assets.xcassets */; };
 		5FB8733625F88F7600D4E40E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB8733425F88F7600D4E40E /* LaunchScreen.storyboard */; };
+		5FB8734025F8FDBB00D4E40E /* Practice_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB8733F25F8FDBB00D4E40E /* Practice_1.swift */; };
+		5FB8734425F968F600D4E40E /* Practice_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB8734325F968F600D4E40E /* Practice_2.swift */; };
+		5FB8734825F96C4A00D4E40E /* YoutubePlayer in Frameworks */ = {isa = PBXBuildFile; productRef = 5FB8734725F96C4A00D4E40E /* YoutubePlayer */; };
+		5FB8734B25F9E9F900D4E40E /* Space_Walp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB8734A25F9E9F900D4E40E /* Space_Walp.swift */; };
+		5FB8734F25F9EA7600D4E40E /* CurvedSideRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB8734E25F9EA7600D4E40E /* CurvedSideRectangle.swift */; };
+		5FB8735425F9EAA900D4E40E /* ImgandShape_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB8735325F9EAA900D4E40E /* ImgandShape_View.swift */; };
+		5FB8735825F9EAC800D4E40E /* SpaceWalpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB8735725F9EAC800D4E40E /* SpaceWalpButton.swift */; };
+		5FB8735B25F9EAE500D4E40E /* SpaceLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB8735A25F9EAE500D4E40E /* SpaceLoginView.swift */; };
+		5FB8735E25F9EB2400D4E40E /* SpaceLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB8735D25F9EB2400D4E40E /* SpaceLoginButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,14 @@
 		5FB8733225F88F7600D4E40E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5FB8733525F88F7600D4E40E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FB8733725F88F7600D4E40E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FB8733F25F8FDBB00D4E40E /* Practice_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice_1.swift; sourceTree = "<group>"; };
+		5FB8734325F968F600D4E40E /* Practice_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice_2.swift; sourceTree = "<group>"; };
+		5FB8734A25F9E9F900D4E40E /* Space_Walp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space_Walp.swift; sourceTree = "<group>"; };
+		5FB8734E25F9EA7600D4E40E /* CurvedSideRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedSideRectangle.swift; sourceTree = "<group>"; };
+		5FB8735325F9EAA900D4E40E /* ImgandShape_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgandShape_View.swift; sourceTree = "<group>"; };
+		5FB8735725F9EAC800D4E40E /* SpaceWalpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceWalpButton.swift; sourceTree = "<group>"; };
+		5FB8735A25F9EAE500D4E40E /* SpaceLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceLoginView.swift; sourceTree = "<group>"; };
+		5FB8735D25F9EB2400D4E40E /* SpaceLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceLoginButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FB8734825F96C4A00D4E40E /* YoutubePlayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +76,7 @@
 			children = (
 				5FB8732925F88F7400D4E40E /* AppDelegate.swift */,
 				5FB8732B25F88F7400D4E40E /* SceneDelegate.swift */,
-				5FB8732D25F88F7400D4E40E /* ContentView.swift */,
+				5FB8733E25F8FD8C00D4E40E /* screens */,
 				5FB8732F25F88F7600D4E40E /* Assets.xcassets */,
 				5FB8733425F88F7600D4E40E /* LaunchScreen.storyboard */,
 				5FB8733725F88F7600D4E40E /* Info.plist */,
@@ -73,6 +91,38 @@
 				5FB8733225F88F7600D4E40E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5FB8733E25F8FD8C00D4E40E /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				5FB8732D25F88F7400D4E40E /* ContentView.swift */,
+				5FB8733F25F8FDBB00D4E40E /* Practice_1.swift */,
+				5FB8734325F968F600D4E40E /* Practice_2.swift */,
+				5FB8735225F9EA7C00D4E40E /* Space */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		5FB8734D25F9EA4200D4E40E /* other_SpaceWalp */ = {
+			isa = PBXGroup;
+			children = (
+				5FB8734E25F9EA7600D4E40E /* CurvedSideRectangle.swift */,
+			);
+			path = other_SpaceWalp;
+			sourceTree = "<group>";
+		};
+		5FB8735225F9EA7C00D4E40E /* Space */ = {
+			isa = PBXGroup;
+			children = (
+				5FB8734A25F9E9F900D4E40E /* Space_Walp.swift */,
+				5FB8735325F9EAA900D4E40E /* ImgandShape_View.swift */,
+				5FB8735725F9EAC800D4E40E /* SpaceWalpButton.swift */,
+				5FB8735A25F9EAE500D4E40E /* SpaceLoginView.swift */,
+				5FB8735D25F9EB2400D4E40E /* SpaceLoginButton.swift */,
+				5FB8734D25F9EA4200D4E40E /* other_SpaceWalp */,
+			);
+			path = Space;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +141,9 @@
 			dependencies = (
 			);
 			name = MoviesApp;
+			packageProductDependencies = (
+				5FB8734725F96C4A00D4E40E /* YoutubePlayer */,
+			);
 			productName = MoviesApp;
 			productReference = 5FB8732625F88F7400D4E40E /* MoviesApp.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +171,9 @@
 				Base,
 			);
 			mainGroup = 5FB8731D25F88F7400D4E40E;
+			packageReferences = (
+				5FB8734625F96C4A00D4E40E /* XCRemoteSwiftPackageReference "youtube-ios-player-helper-swift" */,
+			);
 			productRefGroup = 5FB8732725F88F7400D4E40E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -145,9 +201,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FB8734B25F9E9F900D4E40E /* Space_Walp.swift in Sources */,
+				5FB8735B25F9EAE500D4E40E /* SpaceLoginView.swift in Sources */,
+				5FB8735E25F9EB2400D4E40E /* SpaceLoginButton.swift in Sources */,
+				5FB8734F25F9EA7600D4E40E /* CurvedSideRectangle.swift in Sources */,
 				5FB8732A25F88F7400D4E40E /* AppDelegate.swift in Sources */,
+				5FB8734425F968F600D4E40E /* Practice_2.swift in Sources */,
+				5FB8735425F9EAA900D4E40E /* ImgandShape_View.swift in Sources */,
 				5FB8732C25F88F7400D4E40E /* SceneDelegate.swift in Sources */,
+				5FB8734025F8FDBB00D4E40E /* Practice_1.swift in Sources */,
 				5FB8732E25F88F7400D4E40E /* ContentView.swift in Sources */,
+				5FB8735825F9EAC800D4E40E /* SpaceWalpButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +407,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5FB8734625F96C4A00D4E40E /* XCRemoteSwiftPackageReference "youtube-ios-player-helper-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/s4cha/youtube-ios-player-helper-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5FB8734725F96C4A00D4E40E /* YoutubePlayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5FB8734625F96C4A00D4E40E /* XCRemoteSwiftPackageReference "youtube-ios-player-helper-swift" */;
+			productName = YoutubePlayer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5FB8731E25F88F7400D4E40E /* Project object */;
 }
